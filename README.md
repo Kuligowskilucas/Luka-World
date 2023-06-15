@@ -4,7 +4,7 @@
 
 **A. Identidade Visual** 
 
-  <img width=50% src="Identidade_visual.png"/>
+  <img width=50% src="logo_jogo.jpeg"/>
 
 **B. Redes sociais do projeto**
 
