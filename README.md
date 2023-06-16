@@ -78,4 +78,16 @@ Desenvolvido para PC 💻, "Através da História: Guerra do Paraguai" é um pro
 | Recepção negativa da imprensa/críticos | Baixo | Alto | Ter uma estratégia de relações públicas e marketing sólida, garantir a qualidade do jogo antes do lançamento. |
 | Problemas legais (uso indevido de propriedade intelectual, etc.) | Baixo | Alto | Fazer uma verificação legal prévia para garantir que todas as propriedades intelectuais estão sendo usadas de maneira adequada. |
 
+## **4. Organização do projeto**
 
+Link para o Trello: https://trello.com/b/N7oG8mnk/lukas-world
+
+## **5. Conclusão**
+
+## **A. Recursos e ferramentas**
+
+| Ferramenta | Versão | Link                                            | Descrição de uso                                    |
+|------------|--------|-------------------------------------------------|-----------------------------------------------------|
+| Godot      | 3.5.1  | [Download](https://godotengine.org/download/windows/)     | Game engine, é o programa que facilita o desenvolvimento do jogo |
+| Piskel     | 0.14.0 | [Download](https://www.piskelapp.com/download)       | Software de criação de sprites para o jogo           |
+| GDScript   | 3.5.1  | [Download](https://godotengine.org/download/windows/)     | Linguagem de programação usada na Godot              |
