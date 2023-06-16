@@ -60,7 +60,11 @@ _
  - Menu inicial e menu de pause
 
 
-O projeto tem como objetivo 
+Este jogo é projetado para ser divertido 🎮 e envolvente, mas também educativo 📚, oferecendo aos jogadores uma maneira única de aprender sobre a história da Guerra do Paraguai. Ele busca envolver os jogadores com uma narrativa envolvente 📖, gráficos pixel art 🎨 de alta qualidade e uma mecânica de jogo que promove a exploração e a descoberta 🔎.
+
+Desenvolvido para PC 💻, "Através da História: Guerra do Paraguai" é um projeto que tem a intenção de destacar a importância do passado ⏳ na formação do presente, e o poder dos videogames como uma ferramenta para a educação e o entendimento histórico 🧠. Nós esperamos que os jogadores sejam imersos na história, desafiados pelas missões do jogo 🎯 e, acima de tudo, se divirtam 😄 ao explorar o fascinante mundo que criamos 🌎.
+
+## **3. Matriz de riscos**
 
 | Risco | Probabilidade | Impacto | Estratégia de Mitigação |
 |-------|---------------|---------|-------------------------|
