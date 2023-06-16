@@ -84,7 +84,7 @@ Link para o Trello: https://trello.com/b/N7oG8mnk/lukas-world
 
 ## **5. Conclusão**
 
-## **A. Recursos e ferramentas**
+**A. Recursos e ferramentas**
 
 | Ferramenta | Versão | Link                                            | Descrição de uso                                    |
 |------------|--------|-------------------------------------------------|-----------------------------------------------------|
