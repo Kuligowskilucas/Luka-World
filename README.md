@@ -8,27 +8,27 @@
 
 **B. Redes sociais do projeto**
 
- Em andamento...
+- Em andamento...
 
 **C. Equipe**
 
-  Nome: Lucas Gabriel Kuligowski
+ - Nome: Lucas Gabriel Kuligowski
 
-  E-mail: lucaskuligowski@gmail.com
+ - E-mail: lucaskuligowski@gmail.com
 
-  Telefone: 41 99549-8633
+ - Telefone: 41 99549-8633
 
 _
 
-  Nome: Luana Quezia Fontes
+ - Nome: Luana Quezia Fontes
 
-  E-mail: luu.quezia@gmail.com
+ - E-mail: luu.quezia@gmail.com
 
-  Telefone: 41 98831-2770
+ - Telefone: 41 98831-2770
 
 **D. Data de criação do documento**
 
-  14/06/2023
+ - 14/06/2023
 
 ## **2. Introdução**
 
