@@ -53,4 +53,9 @@ Fazem parte da pesquisa, mapas mentais sobre a escolha do tema, diagramas de ati
 **B. Escopo do projeto**
 
 O minimo produto viavel do jogo será uma versão inicial funcional que terá algumas funcionalidades:
+ - Terá a primeira fase do jogo completa
+ - Recursos basicos do jogador concluido
+ - Sistema de salvamento local
+ - trilha sonora
+ - Menu inicial e menu de pause
 
