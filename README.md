@@ -46,16 +46,32 @@ _
   
   **A. Objetivo do projeto**
 
-O presente artigo apresenta o jogo Luka's World, um jogo focado na contextualização histórica da Guerra do Paraguai, apresentando o processo de criação, pesquisa, desenvolvimento e finalização do jogo. A temática do jogo foi escolhida para ser um jogo capaz de ser apresentado em salas de aula, como material didático, ou ainda, capaz de jogar individualmente como material educativo. O problema motivador para tal escolha é O trabalho visa responder às perguntas: "como ensinar história de forma interativa" e "como abordar temas pouco explorados no âmbito escolar". 🎮📚
+  O presente artigo apresenta o jogo Luka's World, um jogo focado na contextualização histórica da Guerra do Paraguai, apresentando o processo de criação, pesquisa, desenvolvimento e finalização do jogo. A temática do jogo foi escolhida para ser um jogo capaz de ser apresentado em salas de aula, como material didático, ou ainda, capaz de jogar individualmente como material educativo. O problema motivador para tal escolha é O trabalho visa responder às perguntas: "como ensinar história de forma interativa" e "como abordar temas pouco explorados no âmbito escolar". 🎮📚
 
-Fazem parte da pesquisa, mapas mentais sobre a escolha do tema, diagramas de atividades do jogo, estudo da game engine Godot, estudo da plataforma piskel, desenvolvimento do design e pesquisas históricas sobre os principais acontecimentos da guerra. 📝🎨🔍
+  Fazem parte da pesquisa, mapas mentais sobre a escolha do tema, diagramas de atividades do jogo, estudo da game engine Godot, estudo da plataforma piskel, desenvolvimento do design e pesquisas históricas sobre os principais acontecimentos da guerra. 📝🎨🔍
 
 **B. Escopo do projeto**
 
-O minimo produto viavel do jogo será uma versão inicial funcional que terá algumas funcionalidades:
+  O minimo produto viavel do jogo será uma versão inicial funcional que terá algumas funcionalidades:
  - Terá a primeira fase do jogo completa
  - Recursos basicos do jogador concluido
  - Sistema de salvamento local
  - trilha sonora
  - Menu inicial e menu de pause
+
+
+O projeto tem como objetivo 
+
+| Risco | Probabilidade | Impacto | Estratégia de Mitigação |
+|-------|---------------|---------|-------------------------|
+| Desenvolvimento atrasado | Médio | Alto | Ter um cronograma de desenvolvimento bem definido e monitorar o progresso regularmente. |
+| Orçamento insuficiente | Médio | Alto | Fazer um orçamento cuidadoso, incluindo uma reserva para imprevistos. |
+| Falta de engajamento dos jogadores | Alto | Alto | Realizar pesquisas de mercado e testes de jogabilidade para ajustar o jogo às preferências do público-alvo. |
+| Falha em manter a precisão histórica | Baixo | Médio | Fazer uma pesquisa histórica detalhada e ter consultores históricos se possível. |
+| Problemas técnicos (bugs, crashes) | Alto | Alto | Implementar testes rigorosos de controle de qualidade e corrigir bugs rapidamente. |
+| Mau desempenho em algumas plataformas | Médio | Médio | Testar o jogo em diversas plataformas e otimizar o desempenho. |
+| Concorrência de outros jogos similares | Médio | Médio | Diferenciar o jogo por meio de recursos únicos e promoção eficaz. |
+| Recepção negativa da imprensa/críticos | Baixo | Alto | Ter uma estratégia de relações públicas e marketing sólida, garantir a qualidade do jogo antes do lançamento. |
+| Problemas legais (uso indevido de propriedade intelectual, etc.) | Baixo | Alto | Fazer uma verificação legal prévia para garantir que todas as propriedades intelectuais estão sendo usadas de maneira adequada. |
+
 
