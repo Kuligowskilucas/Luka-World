@@ -20,7 +20,7 @@
 
 _
 
- - Nome: Luana Quezia Fontes
+ - Nome: Luana Quezia Fontes Rodrigues
 
  - E-mail: luu.quezia@gmail.com
 
