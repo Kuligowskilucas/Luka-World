@@ -82,7 +82,7 @@ Desenvolvido para PC 💻, "Através da História: Guerra do Paraguai" é um pro
 
 Link para o Trello: https://trello.com/b/N7oG8mnk/lukas-world
 
-## **5. Conclusão**
+## **5. Metodologia**
 
 **A. Recursos e ferramentas**
 
