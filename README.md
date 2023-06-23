@@ -1,4 +1,4 @@
-# Lukas-World
+# Luka: Guerra do Paraguai
 
 ## **1. Identificação**
 
@@ -73,8 +73,8 @@ Desenvolvido para PC 💻, "Através da História: Guerra do Paraguai" é um pro
 | Falta de engajamento dos jogadores | Alto | Alto | Realizar pesquisas de mercado e testes de jogabilidade para ajustar o jogo às preferências do público-alvo. |
 | Falha em manter a precisão histórica | Baixo | Médio | Fazer uma pesquisa histórica detalhada e ter consultores históricos se possível. |
 | Problemas técnicos (bugs, crashes) | Alto | Alto | Implementar testes rigorosos de controle de qualidade e corrigir bugs rapidamente. |
-| Mau desempenho em algumas plataformas | Médio | Médio | Testar o jogo em diversas plataformas e otimizar o desempenho. |
-| Concorrência de outros jogos similares | Médio | Médio | Diferenciar o jogo por meio de recursos únicos e promoção eficaz. |
+| Mau desempenho em algumas plataformas | Baixo | Médio | Testar o jogo em diversas plataformas e otimizar o desempenho. |
+| Concorrência de outros jogos similares | Baixo | Alto | Diferenciar o jogo por meio de recursos únicos e promoção eficaz. |
 | Recepção negativa da imprensa/críticos | Baixo | Alto | Ter uma estratégia de relações públicas e marketing sólida, garantir a qualidade do jogo antes do lançamento. |
 | Problemas legais (uso indevido de propriedade intelectual, etc.) | Baixo | Alto | Fazer uma verificação legal prévia para garantir que todas as propriedades intelectuais estão sendo usadas de maneira adequada. |
 
