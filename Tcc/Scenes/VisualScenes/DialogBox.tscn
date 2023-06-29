@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Dialogos/Dialog_Box.png" type="Texture" id=3]
+
+[node name="DialogBox" type="NinePatchRect"]
+margin_left = 56.0
+margin_top = 402.0
+margin_right = 970.0
+margin_bottom = 560.0
+texture = ExtResource( 3 )
+patch_margin_left = 16
+patch_margin_top = 16
+patch_margin_right = 16
+patch_margin_bottom = 16
+
+[node name="Timer" type="Timer" parent="."]
