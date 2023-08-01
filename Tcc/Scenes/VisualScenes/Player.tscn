@@ -84,7 +84,7 @@ script = ExtResource( 1 )
 position = Vector2( 8, 6 )
 scale = Vector2( 3, 3 )
 frames = SubResource( 17 )
-animation = "walk_down"
+animation = "walk_up"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
@@ -97,8 +97,6 @@ visible = false
 current = true
 limit_left = 0
 limit_top = 0
-limit_right = 1610
-limit_bottom = 915
 drag_margin_h_enabled = true
 drag_margin_v_enabled = true
 drag_margin_left = 0.4

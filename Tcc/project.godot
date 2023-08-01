@@ -11,11 +11,12 @@ config_version=4
 [application]
 
 config/name="Tcc"
-run/main_scene="res://Scenes/Cutscenes/Cutscene1.tscn"
+run/main_scene="res://Scenes/Cutscenes/Cutscene3.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
+Dialogues="*res://Scripts/DialoguesScripts/Dialogues.gd"
 SceneTransition="*res://Scenes/VisualScenes/Scene_transition.tscn"
 
 [display]

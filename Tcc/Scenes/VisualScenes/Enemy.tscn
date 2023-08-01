@@ -133,11 +133,13 @@ anims/walk_right = SubResource( 5 )
 anims/walk_up = SubResource( 7 )
 
 [node name="DetectionArea" type="Area2D" parent="."]
+visible = false
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea"]
+visible = false
 shape = SubResource( 8 )
 
 [connection signal="body_entered" from="DetectionArea" to="." method="_on_body_entered"]

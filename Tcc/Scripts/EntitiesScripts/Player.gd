@@ -45,3 +45,4 @@ func get_direction(motion):
 			return "walk_down"
 		else:
 			return "walk_up"
+	
