@@ -1,0 +1,45 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Fonts/VCR_OSD_MONO_1.001.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Scripts/CutscenesScripts/Panel.gd" type="Script" id=2]
+[ext_resource path="res://Dialogos/Dialog_Box2.png" type="Texture" id=3]
+[ext_resource path="res://Dialogos/Dialog_Box.png" type="Texture" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxTexture" id=2]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 48, 48 )
+margin_left = 16.0
+margin_right = 16.0
+margin_top = 16.0
+margin_bottom = 16.0
+
+[sub_resource type="StyleBoxTexture" id=3]
+texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 48, 48 )
+margin_left = 16.0
+margin_right = 16.0
+margin_top = 16.0
+margin_bottom = 16.0
+
+[node name="Panel" type="Panel"]
+margin_left = 1.0
+margin_top = 3.0
+margin_right = 1024.0
+margin_bottom = 600.0
+script = ExtResource( 2 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 373.0
+margin_top = 214.0
+margin_right = 671.0
+margin_bottom = 299.0
+custom_fonts/font = SubResource( 1 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/normal = SubResource( 3 )
+text = "Voltar ao jogo"
+icon_align = 1

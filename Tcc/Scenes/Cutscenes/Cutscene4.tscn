@@ -3,7 +3,7 @@
 [ext_resource path="res://TileMap/Interior_Tiles/biblioteca.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/VisualScenes/DialogueControl.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Entities/Player/LukaSprite.png" type="Texture" id=3]
-[ext_resource path="res://Scenes/Cutscenes/Cutscene4.gd" type="Script" id=4]
+[ext_resource path="res://Scripts/CutscenesScripts/Cutscene4.gd" type="Script" id=4]
 
 [sub_resource type="AtlasTexture" id=19]
 atlas = ExtResource( 3 )
