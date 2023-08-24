@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Scripts/CutscenesScripts/SceneTransition.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/SpecificScripts/SceneTransition.gd" type="Script" id=1]
 
 [sub_resource type="Animation" id=6]
 resource_name = "dissolve"
