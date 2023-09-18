@@ -75,24 +75,28 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=18]
-extents = Vector2( 12.5, 21.6667 )
+extents = Vector2( 8, 11.6667 )
 
 [node name="Player" type="KinematicBody2D" groups=["player"]]
+position = Vector2( -18, 35 )
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 8, 6 )
 scale = Vector2( 3, 3 )
 frames = SubResource( 17 )
-animation = "walk_up"
+animation = "walk_down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
-position = Vector2( -0.5, 11.5 )
+position = Vector2( 0, -3.5 )
 scale = Vector2( 1.5, 1.5 )
 shape = SubResource( 18 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
+visible = false
 current = true
 limit_left = 0
 limit_top = 0
@@ -105,3 +109,6 @@ drag_margin_top = 0.4
 drag_margin_right = 0.4
 drag_margin_bottom = 0.4
 editor_draw_drag_margin = true
+
+[node name="WeaponHolder" type="Node2D" parent="."]
+scale = Vector2( 0.3, 0.3 )

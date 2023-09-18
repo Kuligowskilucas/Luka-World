@@ -9,7 +9,6 @@ var current_dialogue = []
 var current_line_index = 0
 var dialogue_list = []
 var is_typing = false
-#var Dialogues = preload("res://Scripts/DialoguesScripts/Dialogues.gd").new()
 
 func _ready():
 	hide() 
