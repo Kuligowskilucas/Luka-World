@@ -36,7 +36,19 @@ margin_bottom = 40.0
 margin_right = 1024.0
 margin_bottom = 600.0
 
-[node name="Button" type="Button" parent="Control/Panel"]
+[node name="PauseButton" type="Button" parent="Control/Panel"]
+pause_mode = 2
+margin_left = 363.0
+margin_top = 157.5
+margin_right = 661.0
+margin_bottom = 242.5
+custom_fonts/font = SubResource( 1 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/normal = SubResource( 3 )
+text = "Voltar ao jogo"
+
+[node name="SaveButton" type="Button" parent="Control/Panel"]
 pause_mode = 2
 margin_left = 363.0
 margin_top = 257.5
@@ -46,4 +58,16 @@ custom_fonts/font = SubResource( 1 )
 custom_styles/hover = SubResource( 2 )
 custom_styles/pressed = SubResource( 2 )
 custom_styles/normal = SubResource( 3 )
-text = "Voltar ao jogo"
+text = "Salvar o jogo"
+
+[node name="ExitButton" type="Button" parent="Control/Panel"]
+pause_mode = 2
+margin_left = 363.0
+margin_top = 357.5
+margin_right = 661.0
+margin_bottom = 442.5
+custom_fonts/font = SubResource( 1 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/normal = SubResource( 3 )
+text = "Sair do jogo"

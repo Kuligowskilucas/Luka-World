@@ -9,13 +9,13 @@ var current_dialogue = []
 var current_line_index = 0
 var dialogue_list = []
 var is_typing = false
+var skip_typing = false  # Nova variável
 
 func _ready():
-	hide() 
+	hide()
 
 func start_dialogue(dialogue):
-	name_label.bbcode_text = dialogue["name"]
-	current_dialogue = dialogue["text"]
+	current_dialogue = dialogue
 	current_line_index = 0
 	show()
 	type_dialogue()
@@ -30,17 +30,28 @@ func start_next_dialogue():
 
 func type_dialogue():
 	if current_line_index < current_dialogue.size():
-		var line = current_dialogue[current_line_index]
+		var line_data = current_dialogue[current_line_index]
+		name_label.bbcode_text = line_data["name"]
+		var line = line_data["text"]
 		dialogue_label.bbcode_text = ""
 		is_typing = true
 		for i in range(line.length()):
+			if skip_typing:
+				dialogue_label.bbcode_text = line
+				break
 			dialogue_label.bbcode_text += line[i]
 			yield(get_tree().create_timer(0.05), "timeout")
 		is_typing = false
+		skip_typing = false  # Reset it for the next dialogue
 		current_line_index += 1
 	else:
 		start_next_dialogue()
 
 func _input(event):
-	if event.is_action_pressed("ui_select") and is_visible() and not is_typing:  # Verifica se não está digitando
-		type_dialogue()
+	if event.is_action_pressed("ui_select") and is_visible():
+		if is_typing:
+			# Completa a linha atual de diálogo
+			skip_typing = true
+		else:
+			# Procede para a próxima linha de diálogo
+			type_dialogue()

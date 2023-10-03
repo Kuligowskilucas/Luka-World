@@ -38,7 +38,7 @@ custom_fonts/normal_font = SubResource( 1 )
 scroll_following = true
 
 [node name="Name" type="RichTextLabel" parent="NinePatchRect"]
-margin_left = 21.0
+margin_left = 10.0
 margin_top = 18.0
 margin_right = 146.0
 margin_bottom = 72.0
