@@ -1,0 +1,66 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Tiles_arts/Dialogos/Dialog_Box.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/SpecificScripts/Space.gd" type="Script" id=2]
+[ext_resource path="res://Fonts/BlockKie.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Scripts/DialoguesScripts/DialogueControl.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 23
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 3 )
+
+[node name="DialogueControl" type="Control"]
+pause_mode = 2
+margin_left = 4.0
+margin_top = 375.0
+margin_right = 1022.0
+margin_bottom = 568.0
+rect_pivot_offset = Vector2( -690, -648 )
+script = ExtResource( 4 )
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+margin_left = 165.0
+margin_top = 11.0
+margin_right = 953.0
+margin_bottom = 177.0
+texture = ExtResource( 1 )
+patch_margin_left = 16
+patch_margin_top = 16
+patch_margin_right = 16
+patch_margin_bottom = 16
+
+[node name="Text" type="RichTextLabel" parent="NinePatchRect"]
+margin_left = 167.0
+margin_top = 24.0
+margin_right = 782.0
+margin_bottom = 111.0
+mouse_filter = 2
+custom_fonts/normal_font = SubResource( 1 )
+fit_content_height = true
+scroll_following = true
+
+[node name="Name" type="Label" parent="NinePatchRect"]
+margin_left = 23.0
+margin_top = 130.0
+margin_right = 135.0
+margin_bottom = 155.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Space" type="RichTextLabel" parent="NinePatchRect"]
+margin_left = 598.0
+margin_top = 127.0
+margin_right = 773.0
+margin_bottom = 152.0
+mouse_filter = 2
+custom_fonts/normal_font = SubResource( 1 )
+text = "Pressione espaço"
+script = ExtResource( 2 )
+
+[node name="CharacterImage" type="TextureRect" parent="NinePatchRect"]
+margin_left = 15.0
+margin_top = 12.0
+margin_right = 51.0
+margin_bottom = 52.0
