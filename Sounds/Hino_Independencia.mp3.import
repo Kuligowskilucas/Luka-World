@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Hino_Independencia.mp3-807b118e45a38ca507a31f3d38997430.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Hino_Independencia.mp3"
+dest_files=[ "res://.import/Hino_Independencia.mp3-807b118e45a38ca507a31f3d38997430.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
