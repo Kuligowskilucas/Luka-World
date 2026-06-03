@@ -62,7 +62,7 @@ evento histórico importante, porém pouco presente no imaginário comum.
 4. Pressione **F5** (ou o botão de play) para iniciar. A cena inicial é
    `Scenes/Cutscenes/Logo.tscn`.
 
-> Versão jogável (sem precisar do editor): 
+> Versão jogável (sem precisar do editor): https://kuligowskilucas.itch.io/luka-world
 
 ---
 
